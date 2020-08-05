@@ -1,4 +1,226 @@
-html{
+ html{
+   scroll-behavior: smooth;
+       
+}
+
+body {
+  
+   background-size: cover;
+   padding: 0px;
+   margin:0px;
+   text-decoration: none;
+   border-bottom: none;
+}
+
+.main-container{
+  font-family:'',sans-serif;
+  min-height: 490px;
+  text-align: center;
+  color:white;
+  padding-top: 200px;
+  background: url(https://images.pexels.com/photos/1090638/pexels-photo-1090638.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cont{
+  font-family:'',sans-serif;
+  min-height: 490px;
+  text-align: center;
+  color:white;
+  padding-top: 200px;
+ /* background: url(https://cdn2.vectorstock.com/i/1000x1000/03/86/blue-background-with-stars-vector-4790386.jpg);*/
+  background-color: #F5CBA7;
+ /* background-repeat: no-repeat;
+  background-size: cover;*/
+
+}
+
+.contein{
+  font-family:'',sans-serif;
+  min-height: 490px;
+  text-align: center;
+  color:white;
+  padding-top: 200px;
+ /* background: url(https://cdn2.vectorstock.com/i/1000x1000/03/86/blue-background-with-stars-vector-4790386.jpg);*/
+  background-color: #F5CBA7;
+ /* background-repeat: no-repeat;
+  background-size: cover;*/
+
+}
+
+.conta{
+  font-family:'',sans-serif;
+  min-height: 490px;
+  text-align: center;
+  color:white;
+  padding-top: 200px;
+ /* background: url(https://cdn2.vectorstock.com/i/1000x1000/03/86/blue-background-with-stars-vector-4790386.jpg);*/
+  background-color: #F5CBA7;
+ /* background-repeat: no-repeat;
+  background-size: cover;*/
+
+}
+/*.conte{
+  font-family:'',sans-serif;
+  min-height: 490px;
+  text-align: center;
+  color:white;
+  padding-top: 200px;
+  /*background: url(https://cdn.pixabay.com/photo/2014/06/16/23/40/blue-370127_1280.png);*/
+  /*background-color:cyan ;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}*/
+
+.top-part hr{
+  width: 600px;
+}
+
+.navigation-bar ul li a{
+ text-decoration:none;
+
+}
+
+.nav ul{
+  float: right;
+  list-style-type: none;
+  margin: 40px;
+}
+
+.nav a:hover{
+    color:gray;
+    background: #B2BABB;
+    filter:brightness(50%);
+    text-shadow: -1px -1px -1px darkgray;
+  }
+
+
+.nav ul li{
+  display: inline-block;
+  font-family:'opensans-regular',sans-serif;
+}
+
+.nav ul li a{
+  padding: 8px 25px;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.content{
+ padding-top: 100px;
+padding-bottom: 100px;
+color: #7A7A7A;;
+text-align: center;
+font-size: 20px;
+width: 60%;
+margin: 0 auto;
+
+}
+.about{
+  background-color: #2B2B2B;
+}
+/*.icons {
+  text-align:center;
+
+  }
+.icons i{
+  font-size: 25px;
+
+  }
+.icons ul li{
+  display: inline;
+  list-style: none;
+  padding-right: 30px;
+}
+
+.icons ul li a{
+  color: white;
+}*/
+
+.container{
+height: 180px;
+background: #838C95;
+ padding-top: 100px;
+padding-bottom: 300px;
+font-size: 30px;
+color:white;
+
+}
+h5{
+  text-align: center;
+
+}
+
+.footer{
+text-align: center;
+background-color:rgb(0,0,0,0.8);
+padding-top: 100px;
+padding-bottom: 90px;
+font-size: 20px;
+color:white;
+
+}
+
+.footer {
+    font-size:20px;
+   
+}
+.p{
+  text-align: center;
+  background-color:rgb(0,0,0,0,8);
+  padding-top:top:100px;
+  padding-bottom:90px;
+  font-size:20px;
+}
+/*.button {
+
+  padding: 8px 15px;
+  font-size: 14px;
+  min-width: 160px;
+  text-align: center;
+  border-radius: 0;
+  text-transform: uppercase;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.button-1 {
+    display: block;
+    text-align: center;
+    background: black;
+    border-radius: 3px;
+    color: #fff;
+    width: 180
+px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    margin: 0 auto;
+}
+.button-1:hover {
+    background-color: #02b8dd;
+    color: darkblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*html{
    scroll-behavior: smooth;
  
 }
@@ -6,7 +228,7 @@ body {
     line-height: 30px;
    padding: 0px;
    margin:0px;
-    background: url(https://images.pexels.com/photos/3843372/pexels-photo-3843372.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
+    background: url(https://miro.medium.com/max/11334/1*_0Cu63U3TlJCoJ3kZcgNoA.jpeg
 ) no-repeat;
     background-size: cover;
 
@@ -15,7 +237,7 @@ body {
   font-family:'opensans-regular',sans-serif;
   min-height: 490px;
   text-align: center;
-  color:black;
+  color:grey;
   padding-top: 200px;
   //background-color:powderblue;
   background-repeat: no-repeat;
@@ -38,7 +260,7 @@ body {
 }
 .nav a:hover{
   color:cyan;
-  background:black;
+  background:#34495E;
   filter: brightness(65%);
   text-shadow: -1px -1px -1px black;
 }
@@ -66,9 +288,9 @@ width: 60%;
 margin: 0 auto;
 }
 .about a:hover{
-  background-color: #2B2B2B;
+  background-color: #34495E;
   filter: brightness(65%);
-  text-shadow:  -1px -1px -1px black;
+  text-shadow:  -1px -1px -1px grey;
 
 }
 
@@ -82,7 +304,7 @@ font-size: 30px;
 color:black;
 
 }
-h5{
+h3{
   text-align: center;
 
 }
